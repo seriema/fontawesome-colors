@@ -1,0 +1,32 @@
+{
+  "name": "fontawesome-colors",
+  "version": "0.1.0",
+  "description": "Colors for Font Awesome icons.",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seriema/fontawesome-colors.git"
+  },
+  "keywords": [
+    "font-awesome",
+    "font",
+    "awesome",
+    "icons",
+    "icon",
+    "colors",
+    "color"
+  ],
+  "author": "John-Philip Johansson (seriema@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seriema/fontawesome-colors/issues"
+  },
+  "homepage": "https://github.com/seriema/fontawesome-colors",
+  "devDependencies": {
+    "grunt": "^0.4.2",
+    "grunt-gh-pages": "^0.9.1"
+  }
+}

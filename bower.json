@@ -1,0 +1,27 @@
+{
+  "name": "fontawesome-colors",
+  "version": "0.1.0",
+  "homepage": "https://github.com/seriema/fontawesome-colors",
+  "authors": [
+    "John-Philip Johansson <seriema@gmail.com>"
+  ],
+  "description": "Colors for Font-Awesome icons.",
+  "keywords": [
+    "font-awesome",
+    "icons",
+    "color",
+    "colors"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "font-awesome": "~4.0.3",
+    "bootstrap": "~3.1.1"
+  }
+}
