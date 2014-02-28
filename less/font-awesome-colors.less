@@ -1,0 +1,1176 @@
+// Variables
+
+@default-color: rgba(186,218,85,0.3);
+@office-yellow: #f0d128;
+@office-black: #686868;
+@office-blue: #3671bf;
+
+
+  // Bases for :extend
+
+.default-color {
+  color: @default-color;
+}
+
+.office-yellow {
+  color: @office-yellow;
+}
+
+.office-black {
+  color: @office-black;
+}
+
+.office-blue {
+  color: @office-blue;
+}
+
+
+// Default colors
+
+.fa-color {
+  &.fa-glass {
+    &:extend(.default-color);
+  }
+  &.fa-music {
+    &:extend(.default-color);
+  }
+  &.fa-search {
+    &:extend(.default-color);
+  }
+  &.fa-heart {
+    &:extend(.default-color);
+  }
+  &.fa-star {
+    &:extend(.default-color);
+  }
+  &.fa-star-o {
+    &:extend(.default-color);
+  }
+  &.fa-user {
+    &:extend(.default-color);
+  }
+  &.fa-film {
+    &:extend(.default-color);
+  }
+  &.fa-th-large {
+    &:extend(.office-black);
+  }
+  &.fa-th {
+    &:extend(.office-black);
+  }
+  &.fa-th-list {
+    &:extend(.office-black);
+  }
+  &.fa-check {
+    &:extend(.default-color);
+  }
+  &.fa-times {
+    &:extend(.default-color);
+  }
+  &.fa-search-plus {
+    &:extend(.default-color);
+  }
+  &.fa-search-minus {
+    &:extend(.default-color);
+  }
+  &.fa-power-off {
+    &:extend(.default-color);
+  }
+  &.fa-signal {
+    &:extend(.default-color);
+  }
+  &.fa-gear,
+  &.fa-cog {
+    &:extend(.default-color);
+  }
+  &.fa-trash-o {
+    &:extend(.default-color);
+  }
+  &.fa-home {
+    &:extend(.default-color);
+  }
+  &.fa-file-o {
+    &:extend(.office-yellow);
+  }
+  &.fa-clock-o {
+    &:extend(.default-color);
+  }
+  &.fa-road {
+    &:extend(.default-color);
+  }
+  &.fa-download {
+    &:extend(.default-color);
+  }
+  &.fa-arrow-circle-o-down {
+    &:extend(.default-color);
+  }
+  &.fa-arrow-circle-o-up {
+    &:extend(.default-color);
+  }
+  &.fa-inbox {
+    &:extend(.default-color);
+  }
+  &.fa-play-circle-o {
+    &:extend(.default-color);
+  }
+  &.fa-rotate-right,
+  &.fa-repeat {
+    &:extend(.office-blue);
+  }
+  &.fa-refresh {
+    &:extend(.default-color);
+  }
+  &.fa-list-alt {
+    &:extend(.office-black);
+  }
+  &.fa-lock {
+    &:extend(.default-color);
+  }
+  &.fa-flag {
+    &:extend(.default-color);
+  }
+  &.fa-headphones {
+    &:extend(.default-color);
+  }
+  &.fa-volume-off {
+    &:extend(.default-color);
+  }
+  &.fa-volume-down {
+    &:extend(.default-color);
+  }
+  &.fa-volume-up {
+    &:extend(.default-color);
+  }
+  &.fa-qrcode {
+    &:extend(.default-color);
+  }
+  &.fa-barcode {
+    &:extend(.default-color);
+  }
+  &.fa-tag {
+    &:extend(.default-color);
+  }
+  &.fa-tags {
+    &:extend(.default-color);
+  }
+  &.fa-book {
+    &:extend(.default-color);
+  }
+  &.fa-bookmark {
+    &:extend(.default-color);
+  }
+  &.fa-print {
+    &:extend(.default-color);
+  }
+  &.fa-camera {
+    &:extend(.default-color);
+  }
+  &.fa-font {
+    &:extend(.office-blue);
+  }
+  &.fa-bold {
+    &:extend(.office-black);
+  }
+  &.fa-italic {
+    &:extend(.office-black);
+  }
+  &.fa-text-height {
+    &:extend(.office-black);
+  }
+  &.fa-text-width {
+    &:extend(.office-black);
+  }
+  &.fa-align-left {
+    &:extend(.office-black);
+  }
+  &.fa-align-center {
+    &:extend(.office-black);
+  }
+  &.fa-align-right {
+    &:extend(.office-black);
+  }
+  &.fa-align-justify {
+    &:extend(.office-black);
+  }
+  &.fa-list {
+    &:extend(.office-black);
+  }
+  &.fa-dedent,
+  &.fa-outdent {
+    &:extend(.office-black);
+  }
+  &.fa-indent {
+    &:extend(.office-black);
+  }
+  &.fa-video-camera {
+    &:extend(.default-color);
+  }
+  &.fa-picture-o {
+    &:extend(.default-color);
+  }
+  &.fa-pencil {
+    &:extend(.default-color);
+  }
+  &.fa-map-marker {
+    &:extend(.default-color);
+  }
+  &.fa-adjust {
+    &:extend(.default-color);
+  }
+  &.fa-tint {
+    &:extend(.default-color);
+  }
+  &.fa-edit,
+  &.fa-pencil-square-o {
+    &:extend(.default-color);
+  }
+  &.fa-share-square-o {
+    &:extend(.default-color);
+  }
+  &.fa-check-square-o {
+    &:extend(.default-color);
+  }
+  &.fa-arrows {
+    &:extend(.default-color);
+  }
+  &.fa-step-backward {
+    &:extend(.default-color);
+  }
+  &.fa-fast-backward {
+    &:extend(.default-color);
+  }
+  &.fa-backward {
+    &:extend(.default-color);
+  }
+  &.fa-play {
+    &:extend(.default-color);
+  }
+  &.fa-pause {
+    &:extend(.default-color);
+  }
+  &.fa-stop {
+    &:extend(.default-color);
+  }
+  &.fa-forward {
+    &:extend(.default-color);
+  }
+  &.fa-fast-forward {
+    &:extend(.default-color);
+  }
+  &.fa-step-forward {
+    &:extend(.default-color);
+  }
+  &.fa-eject {
+    &:extend(.default-color);
+  }
+  &.fa-chevron-left {
+    &:extend(.default-color);
+  }
+  &.fa-chevron-right {
+    &:extend(.default-color);
+  }
+  &.fa-plus-circle {
+    &:extend(.default-color);
+  }
+  &.fa-minus-circle {
+    &:extend(.default-color);
+  }
+  &.fa-times-circle {
+    &:extend(.default-color);
+  }
+  &.fa-check-circle {
+    &:extend(.default-color);
+  }
+  &.fa-question-circle {
+    &:extend(.default-color);
+  }
+  &.fa-info-circle {
+    &:extend(.default-color);
+  }
+  &.fa-crosshairs {
+    &:extend(.default-color);
+  }
+  &.fa-times-circle-o {
+    &:extend(.default-color);
+  }
+  &.fa-check-circle-o {
+    &:extend(.default-color);
+  }
+  &.fa-ban {
+    &:extend(.default-color);
+  }
+  &.fa-arrow-left {
+    &:extend(.default-color);
+  }
+  &.fa-arrow-right {
+    &:extend(.default-color);
+  }
+  &.fa-arrow-up {
+    &:extend(.default-color);
+  }
+  &.fa-arrow-down {
+    &:extend(.default-color);
+  }
+  &.fa-mail-forward,
+  &.fa-share {
+    &:extend(.default-color);
+  }
+  &.fa-expand {
+    &:extend(.default-color);
+  }
+  &.fa-compress {
+    &:extend(.default-color);
+  }
+  &.fa-plus {
+    &:extend(.default-color);
+  }
+  &.fa-minus {
+    &:extend(.default-color);
+  }
+  &.fa-asterisk {
+    &:extend(.default-color);
+  }
+  &.fa-exclamation-circle {
+    &:extend(.default-color);
+  }
+  &.fa-gift {
+    &:extend(.default-color);
+  }
+  &.fa-leaf {
+    &:extend(.default-color);
+  }
+  &.fa-fire {
+    &:extend(.default-color);
+  }
+  &.fa-eye {
+    &:extend(.default-color);
+  }
+  &.fa-eye-slash {
+    &:extend(.default-color);
+  }
+  &.fa-warning,
+  &.fa-exclamation-triangle {
+    &:extend(.default-color);
+  }
+  &.fa-plane {
+    &:extend(.default-color);
+  }
+  &.fa-calendar {
+    &:extend(.default-color);
+  }
+  &.fa-random {
+    &:extend(.default-color);
+  }
+  &.fa-comment {
+    &:extend(.default-color);
+  }
+  &.fa-magnet {
+    &:extend(.default-color);
+  }
+  &.fa-chevron-up {
+    &:extend(.default-color);
+  }
+  &.fa-chevron-down {
+    &:extend(.default-color);
+  }
+  &.fa-retweet {
+    &:extend(.default-color);
+  }
+  &.fa-shopping-cart {
+    &:extend(.default-color);
+  }
+  &.fa-folder,
+  &.fa-folder-o {
+    &:extend(.office-yellow);
+  }
+  &.fa-folder-open,
+  &.fa-folder-open-o {
+    &:extend(.office-yellow);
+  }
+  &.fa-arrows-v {
+    &:extend(.default-color);
+  }
+  &.fa-arrows-h {
+    &:extend(.default-color);
+  }
+  &.fa-bar-chart-o {
+    &:extend(.default-color);
+  }
+  &.fa-twitter,
+  &.fa-twitter-square {
+    color: #55acee;
+  }
+  &.fa-facebook,
+  &.fa-facebook-square {
+    color: #3b5998;
+  }
+  &.fa-camera-retro {
+    &:extend(.default-color);
+  }
+  &.fa-key {
+    &:extend(.default-color);
+  }
+  &.fa-gears,
+  &.fa-cogs {
+    &:extend(.default-color);
+  }
+  &.fa-comments {
+    &:extend(.default-color);
+  }
+  &.fa-thumbs-o-up {
+    &:extend(.default-color);
+  }
+  &.fa-thumbs-o-down {
+    &:extend(.default-color);
+  }
+  &.fa-star-half {
+    &:extend(.default-color);
+  }
+  &.fa-heart-o {
+    &:extend(.default-color);
+  }
+  &.fa-sign-out {
+    &:extend(.default-color);
+  }
+  &.fa-thumb-tack {
+    &:extend(.default-color);
+  }
+  &.fa-external-link {
+    &:extend(.default-color);
+  }
+  &.fa-sign-in {
+    &:extend(.default-color);
+  }
+  &.fa-trophy {
+    &:extend(.default-color);
+  }
+  &.fa-upload {
+    &:extend(.default-color);
+  }
+  &.fa-lemon-o {
+    &:extend(.default-color);
+  }
+  &.fa-phone {
+    &:extend(.default-color);
+  }
+  &.fa-square-o {
+    &:extend(.default-color);
+  }
+  &.fa-bookmark-o {
+    &:extend(.default-color);
+  }
+  &.fa-phone-square {
+    &:extend(.default-color);
+  }
+  &.fa-unlock {
+    &:extend(.default-color);
+  }
+  &.fa-credit-card {
+    &:extend(.default-color);
+  }
+  &.fa-rss {
+    &:extend(.default-color);
+  }
+  &.fa-hdd-o {
+    &:extend(.default-color);
+  }
+  &.fa-bullhorn {
+    &:extend(.default-color);
+  }
+  &.fa-bell {
+    &:extend(.default-color);
+  }
+  &.fa-certificate {
+    &:extend(.default-color);
+  }
+  &.fa-hand-o-right {
+    &:extend(.default-color);
+  }
+  &.fa-hand-o-left {
+    &:extend(.default-color);
+  }
+  &.fa-hand-o-up {
+    &:extend(.default-color);
+  }
+  &.fa-hand-o-down {
+    &:extend(.default-color);
+  }
+  &.fa-arrow-circle-left {
+    &:extend(.default-color);
+  }
+  &.fa-arrow-circle-right {
+    &:extend(.default-color);
+  }
+  &.fa-arrow-circle-up {
+    &:extend(.default-color);
+  }
+  &.fa-arrow-circle-down {
+    &:extend(.default-color);
+  }
+  &.fa-globe {
+    &:extend(.default-color);
+  }
+  &.fa-wrench {
+    &:extend(.default-color);
+  }
+  &.fa-tasks {
+    &:extend(.default-color);
+  }
+  &.fa-filter {
+    &:extend(.default-color);
+  }
+  &.fa-briefcase {
+    &:extend(.default-color);
+  }
+  &.fa-arrows-alt {
+    &:extend(.default-color);
+  }
+  &.fa-group,
+  &.fa-users {
+    &:extend(.default-color);
+  }
+  &.fa-chain,
+  &.fa-link {
+    &:extend(.office-black);
+  }
+  &.fa-cloud {
+    &:extend(.default-color);
+  }
+  &.fa-flask {
+    &:extend(.default-color);
+  }
+  &.fa-cut,
+  &.fa-scissors {
+    &:extend(.office-yellow);
+  }
+  &.fa-copy,
+  &.fa-files-o {
+    &:extend(.office-yellow);
+  }
+  &.fa-paperclip {
+    &:extend(.office-black);
+  }
+  &.fa-save,
+  &.fa-floppy-o {
+    &:extend(.office-blue);
+  }
+  &.fa-square {
+    &:extend(.default-color);
+  }
+  &.fa-bars {
+    &:extend(.default-color);
+  }
+  &.fa-list-ul {
+    &:extend(.office-black);
+  }
+  &.fa-list-ol {
+    &:extend(.office-black);
+  }
+  &.fa-strikethrough {
+    &:extend(.office-black);
+  }
+  &.fa-underline {
+    &:extend(.office-black);
+  }
+  &.fa-table {
+    &:extend(.office-black);
+  }
+  &.fa-magic {
+    &:extend(.default-color);
+  }
+  &.fa-truck {
+    &:extend(.default-color);
+  }
+  &.fa-pinterest,
+  &.fa-pinterest-square {
+    color: #cc2127;
+  }
+  &.fa-google-plus-square,
+  &.fa-google-plus {
+    color: #cc3433;
+  }
+  &.fa-money {
+    &:extend(.default-color);
+  }
+  &.fa-caret-down {
+    &:extend(.default-color);
+  }
+  &.fa-caret-up {
+    &:extend(.default-color);
+  }
+  &.fa-caret-left {
+    &:extend(.default-color);
+  }
+  &.fa-caret-right {
+    &:extend(.default-color);
+  }
+  &.fa-columns {
+    &:extend(.office-black);
+  }
+  &.fa-unsorted,
+  &.fa-sort {
+    &:extend(.default-color);
+  }
+  &.fa-sort-down,
+  &.fa-sort-asc {
+    &:extend(.default-color);
+  }
+  &.fa-sort-up,
+  &.fa-sort-desc {
+    &:extend(.default-color);
+  }
+  &.fa-envelope,
+  &.fa-envelope-o {
+    &:extend(.office-yellow);
+  }
+  &.fa-linkedin,
+  &.fa-linkedin-square {
+    color: #1985bc;
+  }
+  &.fa-rotate-left,
+  &.fa-undo {
+    &:extend(.office-blue);
+  }
+  &.fa-legal,
+  &.fa-gavel {
+    &:extend(.default-color);
+  }
+  &.fa-dashboard,
+  &.fa-tachometer {
+    &:extend(.default-color);
+  }
+  &.fa-comment-o {
+    &:extend(.default-color);
+  }
+  &.fa-comments-o {
+    &:extend(.default-color);
+  }
+  &.fa-flash,
+  &.fa-bolt {
+    &:extend(.default-color);
+  }
+  &.fa-sitemap {
+    &:extend(.default-color);
+  }
+  &.fa-umbrella {
+    &:extend(.default-color);
+  }
+  &.fa-paste,
+  &.fa-clipboard {
+    &:extend(.office-yellow);
+  }
+  &.fa-lightbulb-o {
+    &:extend(.default-color);
+  }
+  &.fa-exchange {
+    &:extend(.default-color);
+  }
+  &.fa-cloud-download {
+    &:extend(.default-color);
+  }
+  &.fa-cloud-upload {
+    &:extend(.default-color);
+  }
+  &.fa-user-md {
+    &:extend(.default-color);
+  }
+  &.fa-stethoscope {
+    &:extend(.default-color);
+  }
+  &.fa-suitcase {
+    &:extend(.default-color);
+  }
+  &.fa-bell-o {
+    &:extend(.default-color);
+  }
+  &.fa-coffee {
+    &:extend(.default-color);
+  }
+  &.fa-cutlery {
+    &:extend(.default-color);
+  }
+  &.fa-file-text-o {
+    &:extend(.office-yellow);
+  }
+  &.fa-building-o {
+    &:extend(.default-color);
+  }
+  &.fa-hospital-o {
+    &:extend(.default-color);
+  }
+  &.fa-ambulance {
+    &:extend(.default-color);
+  }
+  &.fa-medkit {
+    &:extend(.default-color);
+  }
+  &.fa-fighter-jet {
+    &:extend(.default-color);
+  }
+  &.fa-beer {
+    &:extend(.default-color);
+  }
+  &.fa-h-square {
+    &:extend(.default-color);
+  }
+  &.fa-plus-square {
+    &:extend(.default-color);
+  }
+  &.fa-angle-double-left {
+    &:extend(.default-color);
+  }
+  &.fa-angle-double-right {
+    &:extend(.default-color);
+  }
+  &.fa-angle-double-up {
+    &:extend(.default-color);
+  }
+  &.fa-angle-double-down {
+    &:extend(.default-color);
+  }
+  &.fa-angle-left {
+    &:extend(.default-color);
+  }
+  &.fa-angle-right {
+    &:extend(.default-color);
+  }
+  &.fa-angle-up {
+    &:extend(.default-color);
+  }
+  &.fa-angle-down {
+    &:extend(.default-color);
+  }
+  &.fa-desktop {
+    &:extend(.default-color);
+  }
+  &.fa-laptop {
+    &:extend(.default-color);
+  }
+  &.fa-tablet {
+    &:extend(.default-color);
+  }
+  &.fa-mobile-phone,
+  &.fa-mobile {
+    &:extend(.default-color);
+  }
+  &.fa-circle-o {
+    &:extend(.default-color);
+  }
+  &.fa-quote-left {
+    &:extend(.default-color);
+  }
+  &.fa-quote-right {
+    &:extend(.default-color);
+  }
+  &.fa-spinner {
+    &:extend(.default-color);
+  }
+  &.fa-circle {
+    &:extend(.default-color);
+  }
+  &.fa-mail-reply,
+  &.fa-reply {
+    &:extend(.default-color);
+  }
+  &.fa-github,
+  &.fa-github-alt,
+  &.fa-github-square {
+    color: #222;
+  }
+  &.fa-smile-o {
+    &:extend(.default-color);
+  }
+  &.fa-frown-o {
+    &:extend(.default-color);
+  }
+  &.fa-meh-o {
+    &:extend(.default-color);
+  }
+  &.fa-gamepad {
+    &:extend(.default-color);
+  }
+  &.fa-keyboard-o {
+    &:extend(.default-color);
+  }
+  &.fa-flag-o {
+    &:extend(.default-color);
+  }
+  &.fa-flag-checkered {
+    &:extend(.default-color);
+  }
+  &.fa-terminal {
+    &:extend(.default-color);
+  }
+  &.fa-code {
+    &:extend(.default-color);
+  }
+  &.fa-reply-all {
+    &:extend(.default-color);
+  }
+  &.fa-mail-reply-all {
+    &:extend(.default-color);
+  }
+  &.fa-star-half-empty,
+  &.fa-star-half-full,
+  &.fa-star-half-o {
+    &:extend(.default-color);
+  }
+  &.fa-location-arrow {
+    &:extend(.default-color);
+  }
+  &.fa-crop {
+    &:extend(.default-color);
+  }
+  &.fa-code-fork {
+    &:extend(.default-color);
+  }
+  &.fa-unlink,
+  &.fa-chain-broken {
+    &:extend(.office-black);
+  }
+  &.fa-question {
+    &:extend(.default-color);
+  }
+  &.fa-info {
+    &:extend(.default-color);
+  }
+  &.fa-exclamation {
+    &:extend(.default-color);
+  }
+  &.fa-superscript {
+    &:extend(.default-color);
+  }
+  &.fa-subscript {
+    &:extend(.default-color);
+  }
+  &.fa-eraser {
+    &:extend(.office-blue);
+  }
+  &.fa-puzzle-piece {
+    &:extend(.default-color);
+  }
+  &.fa-microphone {
+    &:extend(.default-color);
+  }
+  &.fa-microphone-slash {
+    &:extend(.default-color);
+  }
+  &.fa-shield {
+    &:extend(.default-color);
+  }
+  &.fa-calendar-o {
+    &:extend(.default-color);
+  }
+  &.fa-fire-extinguisher {
+    &:extend(.default-color);
+  }
+  &.fa-rocket {
+    &:extend(.default-color);
+  }
+  &.fa-maxcdn {
+    color: #f46f20;
+  }
+  &.fa-chevron-circle-left {
+    &:extend(.default-color);
+  }
+  &.fa-chevron-circle-right {
+    &:extend(.default-color);
+  }
+  &.fa-chevron-circle-up {
+    &:extend(.default-color);
+  }
+  &.fa-chevron-circle-down {
+    &:extend(.default-color);
+  }
+  &.fa-html5 {
+    color: #e54d26;
+  }
+  &.fa-css3 {
+    color: #2177ff;
+  }
+  &.fa-anchor {
+    &:extend(.default-color);
+  }
+  &.fa-unlock-alt {
+    &:extend(.default-color);
+  }
+  &.fa-bullseye {
+    &:extend(.default-color);
+  }
+  &.fa-ellipsis-h {
+    &:extend(.default-color);
+  }
+  &.fa-ellipsis-v {
+    &:extend(.default-color);
+  }
+  &.fa-rss-square {
+    &:extend(.default-color);
+  }
+  &.fa-play-circle {
+    &:extend(.default-color);
+  }
+  &.fa-ticket {
+    &:extend(.default-color);
+  }
+  &.fa-minus-square {
+    &:extend(.default-color);
+  }
+  &.fa-minus-square-o {
+    &:extend(.default-color);
+  }
+  &.fa-level-up {
+    &:extend(.default-color);
+  }
+  &.fa-level-down {
+    &:extend(.default-color);
+  }
+  &.fa-check-square {
+    &:extend(.default-color);
+  }
+  &.fa-pencil-square {
+    &:extend(.default-color);
+  }
+  &.fa-external-link-square {
+    &:extend(.default-color);
+  }
+  &.fa-share-square {
+    &:extend(.default-color);
+  }
+  &.fa-compass {
+    &:extend(.default-color);
+  }
+  &.fa-toggle-down,
+  &.fa-caret-square-o-down {
+    &:extend(.default-color);
+  }
+  &.fa-toggle-up,
+  &.fa-caret-square-o-up {
+    &:extend(.default-color);
+  }
+  &.fa-toggle-right,
+  &.fa-caret-square-o-right {
+    &:extend(.default-color);
+  }
+  &.fa-euro,
+  &.fa-eur {
+    &:extend(.default-color);
+  }
+  &.fa-gbp {
+    &:extend(.default-color);
+  }
+  &.fa-dollar,
+  &.fa-usd {
+    &:extend(.default-color);
+  }
+  &.fa-rupee,
+  &.fa-inr {
+    &:extend(.default-color);
+  }
+  &.fa-cny,
+  &.fa-rmb,
+  &.fa-yen,
+  &.fa-jpy {
+    &:extend(.default-color);
+  }
+  &.fa-ruble,
+  &.fa-rouble,
+  &.fa-rub {
+    &:extend(.default-color);
+  }
+  &.fa-won,
+  &.fa-krw {
+    &:extend(.default-color);
+  }
+  &.fa-bitcoin,
+  &.fa-btc {
+    color: #f9a540;
+  }
+  &.fa-file {
+    &:extend(.office-yellow);
+  }
+  &.fa-file-text {
+    &:extend(.office-yellow);
+  }
+  &.fa-sort-alpha-asc {
+    &:extend(.default-color);
+  }
+  &.fa-sort-alpha-desc {
+    &:extend(.default-color);
+  }
+  &.fa-sort-amount-asc {
+    &:extend(.default-color);
+  }
+  &.fa-sort-amount-desc {
+    &:extend(.default-color);
+  }
+  &.fa-sort-numeric-asc {
+    &:extend(.default-color);
+  }
+  &.fa-sort-numeric-desc {
+    &:extend(.default-color);
+  }
+  &.fa-thumbs-up {
+    &:extend(.default-color);
+  }
+  &.fa-thumbs-down {
+    &:extend(.default-color);
+  }
+  &.fa-xing,
+  &.fa-xing-square {
+    color: #015a60;
+  }
+  &.fa-youtube-square,
+  &.fa-youtube,
+  &.fa-youtube-play {
+    color: #cc181e;
+  }
+  &.fa-dropbox {
+    color: #1081de;
+  }
+  &.fa-stack-overflow {
+    color: #fe7a15;
+  }
+  &.fa-instagram {
+    color: #dac1ab;
+  }
+  &.fa-flickr {
+    color: #ff0084;
+  }
+  &.fa-adn {
+    &:extend(.default-color);
+  }
+  &.fa-bitbucket,
+  &.fa-bitbucket-square {
+    color: #205081;
+  }
+  &.fa-tumblr,
+  &.fa-tumblr-square {
+    color: #33445e;
+  }
+  &.fa-long-arrow-down {
+    &:extend(.default-color);
+  }
+  &.fa-long-arrow-up {
+    &:extend(.default-color);
+  }
+  &.fa-long-arrow-left {
+    &:extend(.default-color);
+  }
+  &.fa-long-arrow-right {
+    &:extend(.default-color);
+  }
+  &.fa-apple {
+    color: #dcddde;
+  }
+  &.fa-windows {
+    color: #00adf1;
+  }
+  &.fa-android {
+    color: #a4c739;
+  }
+  &.fa-linux {
+    color: #000;
+  }
+  &.fa-dribbble {
+    color: #e54d88;
+  }
+  &.fa-skype {
+    color: #17b4ee;
+  }
+  &.fa-foursquare {
+    color: #24b0eb;
+  }
+  &.fa-trello {
+    color: #256b94;
+  }
+  &.fa-female {
+    &:extend(.default-color);
+  }
+  &.fa-male {
+    &:extend(.default-color);
+  }
+  &.fa-gittip {
+    color: #663300;
+  }
+  &.fa-sun-o {
+    &:extend(.default-color);
+  }
+  &.fa-moon-o {
+    &:extend(.default-color);
+  }
+  &.fa-archive {
+    &:extend(.default-color);
+  }
+  &.fa-bug {
+    &:extend(.default-color);
+  }
+  &.fa-vk {
+    color: #476c98;
+  }
+  &.fa-weibo {
+    color: #d52b2b;
+  }
+  &.fa-renren {
+    color: #105ba3;
+  }
+  &.fa-pagelines {
+    color: #1c94f3;
+  }
+  &.fa-stack-exchange {
+    color: #195398;
+  }
+  &.fa-arrow-circle-o-right {
+    &:extend(.default-color);
+  }
+  &.fa-arrow-circle-o-left {
+    &:extend(.default-color);
+  }
+  &.fa-toggle-left,
+  &.fa-caret-square-o-left {
+    &:extend(.default-color);
+  }
+  &.fa-dot-circle-o {
+    &:extend(.default-color);
+  }
+  &.fa-wheelchair {
+    &:extend(.default-color);
+  }
+  &.fa-vimeo-square {
+    color: #1bb6ec;
+  }
+  &.fa-turkish-lira,
+  &.fa-try {
+    &:extend(.default-color);
+  }
+  &.fa-plus-square-o {
+    &:extend(.default-color);
+  }
+}
+
+// Alternative colors
+
+.fa-color-alt {
+  &.fa-html5 {
+    color: #ed662c;
+  }
+  &.fa-css3 {
+    color: #2ba9e3;
+  }
+  &.fa-weibo {
+    color: #e79111;
+  }
+  &.fa-renren {
+    color: #de3d2e;
+  }
+  &.fa-xing,
+  &.fa-xing-square {
+    color: #d3d600;
+  }
+  &.fa-stack-overflow {
+    color: #818185;
+  }
+  &.fa-flickr {
+    color: #0062dd;
+  }
+
+}

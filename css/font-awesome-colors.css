@@ -1,0 +1,509 @@
+.default-color,
+.fa-color.fa-glass,
+.fa-color.fa-music,
+.fa-color.fa-search,
+.fa-color.fa-heart,
+.fa-color.fa-star,
+.fa-color.fa-star-o,
+.fa-color.fa-user,
+.fa-color.fa-film,
+.fa-color.fa-check,
+.fa-color.fa-times,
+.fa-color.fa-search-plus,
+.fa-color.fa-search-minus,
+.fa-color.fa-power-off,
+.fa-color.fa-signal,
+.fa-color.fa-gear,
+.fa-color.fa-cog,
+.fa-color.fa-trash-o,
+.fa-color.fa-home,
+.fa-color.fa-clock-o,
+.fa-color.fa-road,
+.fa-color.fa-download,
+.fa-color.fa-arrow-circle-o-down,
+.fa-color.fa-arrow-circle-o-up,
+.fa-color.fa-inbox,
+.fa-color.fa-play-circle-o,
+.fa-color.fa-refresh,
+.fa-color.fa-lock,
+.fa-color.fa-flag,
+.fa-color.fa-headphones,
+.fa-color.fa-volume-off,
+.fa-color.fa-volume-down,
+.fa-color.fa-volume-up,
+.fa-color.fa-qrcode,
+.fa-color.fa-barcode,
+.fa-color.fa-tag,
+.fa-color.fa-tags,
+.fa-color.fa-book,
+.fa-color.fa-bookmark,
+.fa-color.fa-print,
+.fa-color.fa-camera,
+.fa-color.fa-video-camera,
+.fa-color.fa-picture-o,
+.fa-color.fa-pencil,
+.fa-color.fa-map-marker,
+.fa-color.fa-adjust,
+.fa-color.fa-tint,
+.fa-color.fa-edit,
+.fa-color.fa-pencil-square-o,
+.fa-color.fa-share-square-o,
+.fa-color.fa-check-square-o,
+.fa-color.fa-arrows,
+.fa-color.fa-step-backward,
+.fa-color.fa-fast-backward,
+.fa-color.fa-backward,
+.fa-color.fa-play,
+.fa-color.fa-pause,
+.fa-color.fa-stop,
+.fa-color.fa-forward,
+.fa-color.fa-fast-forward,
+.fa-color.fa-step-forward,
+.fa-color.fa-eject,
+.fa-color.fa-chevron-left,
+.fa-color.fa-chevron-right,
+.fa-color.fa-plus-circle,
+.fa-color.fa-minus-circle,
+.fa-color.fa-times-circle,
+.fa-color.fa-check-circle,
+.fa-color.fa-question-circle,
+.fa-color.fa-info-circle,
+.fa-color.fa-crosshairs,
+.fa-color.fa-times-circle-o,
+.fa-color.fa-check-circle-o,
+.fa-color.fa-ban,
+.fa-color.fa-arrow-left,
+.fa-color.fa-arrow-right,
+.fa-color.fa-arrow-up,
+.fa-color.fa-arrow-down,
+.fa-color.fa-mail-forward,
+.fa-color.fa-share,
+.fa-color.fa-expand,
+.fa-color.fa-compress,
+.fa-color.fa-plus,
+.fa-color.fa-minus,
+.fa-color.fa-asterisk,
+.fa-color.fa-exclamation-circle,
+.fa-color.fa-gift,
+.fa-color.fa-leaf,
+.fa-color.fa-fire,
+.fa-color.fa-eye,
+.fa-color.fa-eye-slash,
+.fa-color.fa-warning,
+.fa-color.fa-exclamation-triangle,
+.fa-color.fa-plane,
+.fa-color.fa-calendar,
+.fa-color.fa-random,
+.fa-color.fa-comment,
+.fa-color.fa-magnet,
+.fa-color.fa-chevron-up,
+.fa-color.fa-chevron-down,
+.fa-color.fa-retweet,
+.fa-color.fa-shopping-cart,
+.fa-color.fa-arrows-v,
+.fa-color.fa-arrows-h,
+.fa-color.fa-bar-chart-o,
+.fa-color.fa-camera-retro,
+.fa-color.fa-key,
+.fa-color.fa-gears,
+.fa-color.fa-cogs,
+.fa-color.fa-comments,
+.fa-color.fa-thumbs-o-up,
+.fa-color.fa-thumbs-o-down,
+.fa-color.fa-star-half,
+.fa-color.fa-heart-o,
+.fa-color.fa-sign-out,
+.fa-color.fa-thumb-tack,
+.fa-color.fa-external-link,
+.fa-color.fa-sign-in,
+.fa-color.fa-trophy,
+.fa-color.fa-upload,
+.fa-color.fa-lemon-o,
+.fa-color.fa-phone,
+.fa-color.fa-square-o,
+.fa-color.fa-bookmark-o,
+.fa-color.fa-phone-square,
+.fa-color.fa-unlock,
+.fa-color.fa-credit-card,
+.fa-color.fa-rss,
+.fa-color.fa-hdd-o,
+.fa-color.fa-bullhorn,
+.fa-color.fa-bell,
+.fa-color.fa-certificate,
+.fa-color.fa-hand-o-right,
+.fa-color.fa-hand-o-left,
+.fa-color.fa-hand-o-up,
+.fa-color.fa-hand-o-down,
+.fa-color.fa-arrow-circle-left,
+.fa-color.fa-arrow-circle-right,
+.fa-color.fa-arrow-circle-up,
+.fa-color.fa-arrow-circle-down,
+.fa-color.fa-globe,
+.fa-color.fa-wrench,
+.fa-color.fa-tasks,
+.fa-color.fa-filter,
+.fa-color.fa-briefcase,
+.fa-color.fa-arrows-alt,
+.fa-color.fa-group,
+.fa-color.fa-users,
+.fa-color.fa-cloud,
+.fa-color.fa-flask,
+.fa-color.fa-square,
+.fa-color.fa-bars,
+.fa-color.fa-magic,
+.fa-color.fa-truck,
+.fa-color.fa-money,
+.fa-color.fa-caret-down,
+.fa-color.fa-caret-up,
+.fa-color.fa-caret-left,
+.fa-color.fa-caret-right,
+.fa-color.fa-unsorted,
+.fa-color.fa-sort,
+.fa-color.fa-sort-down,
+.fa-color.fa-sort-asc,
+.fa-color.fa-sort-up,
+.fa-color.fa-sort-desc,
+.fa-color.fa-legal,
+.fa-color.fa-gavel,
+.fa-color.fa-dashboard,
+.fa-color.fa-tachometer,
+.fa-color.fa-comment-o,
+.fa-color.fa-comments-o,
+.fa-color.fa-flash,
+.fa-color.fa-bolt,
+.fa-color.fa-sitemap,
+.fa-color.fa-umbrella,
+.fa-color.fa-lightbulb-o,
+.fa-color.fa-exchange,
+.fa-color.fa-cloud-download,
+.fa-color.fa-cloud-upload,
+.fa-color.fa-user-md,
+.fa-color.fa-stethoscope,
+.fa-color.fa-suitcase,
+.fa-color.fa-bell-o,
+.fa-color.fa-coffee,
+.fa-color.fa-cutlery,
+.fa-color.fa-building-o,
+.fa-color.fa-hospital-o,
+.fa-color.fa-ambulance,
+.fa-color.fa-medkit,
+.fa-color.fa-fighter-jet,
+.fa-color.fa-beer,
+.fa-color.fa-h-square,
+.fa-color.fa-plus-square,
+.fa-color.fa-angle-double-left,
+.fa-color.fa-angle-double-right,
+.fa-color.fa-angle-double-up,
+.fa-color.fa-angle-double-down,
+.fa-color.fa-angle-left,
+.fa-color.fa-angle-right,
+.fa-color.fa-angle-up,
+.fa-color.fa-angle-down,
+.fa-color.fa-desktop,
+.fa-color.fa-laptop,
+.fa-color.fa-tablet,
+.fa-color.fa-mobile-phone,
+.fa-color.fa-mobile,
+.fa-color.fa-circle-o,
+.fa-color.fa-quote-left,
+.fa-color.fa-quote-right,
+.fa-color.fa-spinner,
+.fa-color.fa-circle,
+.fa-color.fa-mail-reply,
+.fa-color.fa-reply,
+.fa-color.fa-smile-o,
+.fa-color.fa-frown-o,
+.fa-color.fa-meh-o,
+.fa-color.fa-gamepad,
+.fa-color.fa-keyboard-o,
+.fa-color.fa-flag-o,
+.fa-color.fa-flag-checkered,
+.fa-color.fa-terminal,
+.fa-color.fa-code,
+.fa-color.fa-reply-all,
+.fa-color.fa-mail-reply-all,
+.fa-color.fa-star-half-empty,
+.fa-color.fa-star-half-full,
+.fa-color.fa-star-half-o,
+.fa-color.fa-location-arrow,
+.fa-color.fa-crop,
+.fa-color.fa-code-fork,
+.fa-color.fa-question,
+.fa-color.fa-info,
+.fa-color.fa-exclamation,
+.fa-color.fa-superscript,
+.fa-color.fa-subscript,
+.fa-color.fa-puzzle-piece,
+.fa-color.fa-microphone,
+.fa-color.fa-microphone-slash,
+.fa-color.fa-shield,
+.fa-color.fa-calendar-o,
+.fa-color.fa-fire-extinguisher,
+.fa-color.fa-rocket,
+.fa-color.fa-chevron-circle-left,
+.fa-color.fa-chevron-circle-right,
+.fa-color.fa-chevron-circle-up,
+.fa-color.fa-chevron-circle-down,
+.fa-color.fa-anchor,
+.fa-color.fa-unlock-alt,
+.fa-color.fa-bullseye,
+.fa-color.fa-ellipsis-h,
+.fa-color.fa-ellipsis-v,
+.fa-color.fa-rss-square,
+.fa-color.fa-play-circle,
+.fa-color.fa-ticket,
+.fa-color.fa-minus-square,
+.fa-color.fa-minus-square-o,
+.fa-color.fa-level-up,
+.fa-color.fa-level-down,
+.fa-color.fa-check-square,
+.fa-color.fa-pencil-square,
+.fa-color.fa-external-link-square,
+.fa-color.fa-share-square,
+.fa-color.fa-compass,
+.fa-color.fa-toggle-down,
+.fa-color.fa-caret-square-o-down,
+.fa-color.fa-toggle-up,
+.fa-color.fa-caret-square-o-up,
+.fa-color.fa-toggle-right,
+.fa-color.fa-caret-square-o-right,
+.fa-color.fa-euro,
+.fa-color.fa-eur,
+.fa-color.fa-gbp,
+.fa-color.fa-dollar,
+.fa-color.fa-usd,
+.fa-color.fa-rupee,
+.fa-color.fa-inr,
+.fa-color.fa-cny,
+.fa-color.fa-rmb,
+.fa-color.fa-yen,
+.fa-color.fa-jpy,
+.fa-color.fa-ruble,
+.fa-color.fa-rouble,
+.fa-color.fa-rub,
+.fa-color.fa-won,
+.fa-color.fa-krw,
+.fa-color.fa-sort-alpha-asc,
+.fa-color.fa-sort-alpha-desc,
+.fa-color.fa-sort-amount-asc,
+.fa-color.fa-sort-amount-desc,
+.fa-color.fa-sort-numeric-asc,
+.fa-color.fa-sort-numeric-desc,
+.fa-color.fa-thumbs-up,
+.fa-color.fa-thumbs-down,
+.fa-color.fa-adn,
+.fa-color.fa-long-arrow-down,
+.fa-color.fa-long-arrow-up,
+.fa-color.fa-long-arrow-left,
+.fa-color.fa-long-arrow-right,
+.fa-color.fa-female,
+.fa-color.fa-male,
+.fa-color.fa-sun-o,
+.fa-color.fa-moon-o,
+.fa-color.fa-archive,
+.fa-color.fa-bug,
+.fa-color.fa-arrow-circle-o-right,
+.fa-color.fa-arrow-circle-o-left,
+.fa-color.fa-toggle-left,
+.fa-color.fa-caret-square-o-left,
+.fa-color.fa-dot-circle-o,
+.fa-color.fa-wheelchair,
+.fa-color.fa-turkish-lira,
+.fa-color.fa-try,
+.fa-color.fa-plus-square-o {
+  color: rgba(186, 218, 85, 0.3);
+}
+.office-yellow,
+.fa-color.fa-file-o,
+.fa-color.fa-folder,
+.fa-color.fa-folder-o,
+.fa-color.fa-folder-open,
+.fa-color.fa-folder-open-o,
+.fa-color.fa-cut,
+.fa-color.fa-scissors,
+.fa-color.fa-copy,
+.fa-color.fa-files-o,
+.fa-color.fa-envelope,
+.fa-color.fa-envelope-o,
+.fa-color.fa-paste,
+.fa-color.fa-clipboard,
+.fa-color.fa-file-text-o,
+.fa-color.fa-file,
+.fa-color.fa-file-text {
+  color: #f0d128;
+}
+.office-black,
+.fa-color.fa-th-large,
+.fa-color.fa-th,
+.fa-color.fa-th-list,
+.fa-color.fa-list-alt,
+.fa-color.fa-bold,
+.fa-color.fa-italic,
+.fa-color.fa-text-height,
+.fa-color.fa-text-width,
+.fa-color.fa-align-left,
+.fa-color.fa-align-center,
+.fa-color.fa-align-right,
+.fa-color.fa-align-justify,
+.fa-color.fa-list,
+.fa-color.fa-dedent,
+.fa-color.fa-outdent,
+.fa-color.fa-indent,
+.fa-color.fa-chain,
+.fa-color.fa-link,
+.fa-color.fa-paperclip,
+.fa-color.fa-list-ul,
+.fa-color.fa-list-ol,
+.fa-color.fa-strikethrough,
+.fa-color.fa-underline,
+.fa-color.fa-table,
+.fa-color.fa-columns,
+.fa-color.fa-unlink,
+.fa-color.fa-chain-broken {
+  color: #686868;
+}
+.office-blue,
+.fa-color.fa-rotate-right,
+.fa-color.fa-repeat,
+.fa-color.fa-font,
+.fa-color.fa-save,
+.fa-color.fa-floppy-o,
+.fa-color.fa-rotate-left,
+.fa-color.fa-undo,
+.fa-color.fa-eraser {
+  color: #3671bf;
+}
+.fa-color.fa-twitter,
+.fa-color.fa-twitter-square {
+  color: #55acee;
+}
+.fa-color.fa-facebook,
+.fa-color.fa-facebook-square {
+  color: #3b5998;
+}
+.fa-color.fa-pinterest,
+.fa-color.fa-pinterest-square {
+  color: #cc2127;
+}
+.fa-color.fa-google-plus-square,
+.fa-color.fa-google-plus {
+  color: #cc3433;
+}
+.fa-color.fa-linkedin,
+.fa-color.fa-linkedin-square {
+  color: #1985bc;
+}
+.fa-color.fa-github,
+.fa-color.fa-github-alt,
+.fa-color.fa-github-square {
+  color: #222;
+}
+.fa-color.fa-maxcdn {
+  color: #f46f20;
+}
+.fa-color.fa-html5 {
+  color: #e54d26;
+}
+.fa-color.fa-css3 {
+  color: #2177ff;
+}
+.fa-color.fa-bitcoin,
+.fa-color.fa-btc {
+  color: #f9a540;
+}
+.fa-color.fa-xing,
+.fa-color.fa-xing-square {
+  color: #015a60;
+}
+.fa-color.fa-youtube-square,
+.fa-color.fa-youtube,
+.fa-color.fa-youtube-play {
+  color: #cc181e;
+}
+.fa-color.fa-dropbox {
+  color: #1081de;
+}
+.fa-color.fa-stack-overflow {
+  color: #fe7a15;
+}
+.fa-color.fa-instagram {
+  color: #dac1ab;
+}
+.fa-color.fa-flickr {
+  color: #ff0084;
+}
+.fa-color.fa-bitbucket,
+.fa-color.fa-bitbucket-square {
+  color: #205081;
+}
+.fa-color.fa-tumblr,
+.fa-color.fa-tumblr-square {
+  color: #33445e;
+}
+.fa-color.fa-apple {
+  color: #dcddde;
+}
+.fa-color.fa-windows {
+  color: #00adf1;
+}
+.fa-color.fa-android {
+  color: #a4c739;
+}
+.fa-color.fa-linux {
+  color: #000;
+}
+.fa-color.fa-dribbble {
+  color: #e54d88;
+}
+.fa-color.fa-skype {
+  color: #17b4ee;
+}
+.fa-color.fa-foursquare {
+  color: #24b0eb;
+}
+.fa-color.fa-trello {
+  color: #256b94;
+}
+.fa-color.fa-gittip {
+  color: #663300;
+}
+.fa-color.fa-vk {
+  color: #476c98;
+}
+.fa-color.fa-weibo {
+  color: #d52b2b;
+}
+.fa-color.fa-renren {
+  color: #105ba3;
+}
+.fa-color.fa-pagelines {
+  color: #1c94f3;
+}
+.fa-color.fa-stack-exchange {
+  color: #195398;
+}
+.fa-color.fa-vimeo-square {
+  color: #1bb6ec;
+}
+.fa-color-alt.fa-html5 {
+  color: #ed662c;
+}
+.fa-color-alt.fa-css3 {
+  color: #2ba9e3;
+}
+.fa-color-alt.fa-weibo {
+  color: #e79111;
+}
+.fa-color-alt.fa-renren {
+  color: #de3d2e;
+}
+.fa-color-alt.fa-xing,
+.fa-color-alt.fa-xing-square {
+  color: #d3d600;
+}
+.fa-color-alt.fa-stack-overflow {
+  color: #818185;
+}
+.fa-color-alt.fa-flickr {
+  color: #0062dd;
+}
