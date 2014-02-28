@@ -9,13 +9,20 @@ module.exports = function(grunt) {
 				dotfiles: true
 			},
 			src: ['**']
+		},
+		less: {
+			development: {
+				files: {
+					"webpage/css/font-awesome-colors.css": "webpage/less/font-awesome-colors.less"
+				}
+			}
 		}
 	});
 
-	// Load the plugin that provides the "uglify" task.
 	grunt.loadNpmTasks('grunt-gh-pages');
+	grunt.loadNpmTasks('grunt-contrib-less');
 
 	// Default task(s).
-	grunt.registerTask('default', ['uglify']);
+	grunt.registerTask('default', ['less']);
 
 };
