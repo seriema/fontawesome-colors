@@ -1,4 +1,4 @@
-.default-color,
+.fa-default-color,
 .fa-color.fa-glass,
 .fa-color.fa-music,
 .fa-color.fa-search,
@@ -313,7 +313,7 @@
 .fa-color.fa-plus-square-o {
   color: rgba(186, 218, 85, 0.3);
 }
-.office-yellow,
+.fa-office-yellow,
 .fa-color.fa-file-o,
 .fa-color.fa-folder,
 .fa-color.fa-folder-o,
@@ -332,7 +332,7 @@
 .fa-color.fa-file-text {
   color: #ffc200;
 }
-.office-black,
+.fa-office-black,
 .fa-color.fa-th-large,
 .fa-color.fa-th,
 .fa-color.fa-th-list,
@@ -362,7 +362,7 @@
 .fa-color.fa-chain-broken {
   color: #686868;
 }
-.office-blue,
+.fa-office-blue,
 .fa-color.fa-rotate-right,
 .fa-color.fa-repeat,
 .fa-color.fa-font,
