@@ -23,7 +23,6 @@
 .fa-color.fa-arrow-circle-o-down,
 .fa-color.fa-arrow-circle-o-up,
 .fa-color.fa-inbox,
-.fa-color.fa-play-circle-o,
 .fa-color.fa-refresh,
 .fa-color.fa-lock,
 .fa-color.fa-flag,
@@ -50,16 +49,6 @@
 .fa-color.fa-share-square-o,
 .fa-color.fa-check-square-o,
 .fa-color.fa-arrows,
-.fa-color.fa-step-backward,
-.fa-color.fa-fast-backward,
-.fa-color.fa-backward,
-.fa-color.fa-play,
-.fa-color.fa-pause,
-.fa-color.fa-stop,
-.fa-color.fa-forward,
-.fa-color.fa-fast-forward,
-.fa-color.fa-step-forward,
-.fa-color.fa-eject,
 .fa-color.fa-chevron-left,
 .fa-color.fa-chevron-right,
 .fa-color.fa-plus-circle,
@@ -78,8 +67,6 @@
 .fa-color.fa-arrow-down,
 .fa-color.fa-mail-forward,
 .fa-color.fa-share,
-.fa-color.fa-expand,
-.fa-color.fa-compress,
 .fa-color.fa-plus,
 .fa-color.fa-minus,
 .fa-color.fa-asterisk,
@@ -143,7 +130,6 @@
 .fa-color.fa-tasks,
 .fa-color.fa-filter,
 .fa-color.fa-briefcase,
-.fa-color.fa-arrows-alt,
 .fa-color.fa-group,
 .fa-color.fa-users,
 .fa-color.fa-cloud,
@@ -249,7 +235,6 @@
 .fa-color.fa-ellipsis-h,
 .fa-color.fa-ellipsis-v,
 .fa-color.fa-rss-square,
-.fa-color.fa-play-circle,
 .fa-color.fa-ticket,
 .fa-color.fa-minus-square,
 .fa-color.fa-minus-square-o,
@@ -293,6 +278,61 @@
 .fa-color.fa-wheelchair,
 .fa-color.fa-plus-square-o {
   color: rgba(186, 218, 85, 0.3);
+}
+.fa-media-black,
+.fa-color.fa-step-backward,
+.fa-color.fa-fast-backward,
+.fa-color.fa-fast-forward,
+.fa-color.fa-step-forward {
+  color: #929292;
+}
+.fa-media-blue,
+.fa-color.fa-eject,
+.fa-color.fa-expand,
+.fa-color.fa-compress,
+.fa-color.fa-arrows-alt {
+  color: #44ace0;
+}
+.fa-media-green,
+.fa-color.fa-play-circle-o,
+.fa-color.fa-backward,
+.fa-color.fa-play,
+.fa-color.fa-pause,
+.fa-color.fa-forward,
+.fa-color.fa-play-circle {
+  color: #44b956;
+}
+.fa-media-red,
+.fa-color.fa-stop {
+  color: #ea3941;
+}
+.fa-money-green,
+.fa-color.fa-money,
+.fa-color.fa-dollar,
+.fa-color.fa-usd {
+  color: #3aa902;
+}
+.fa-money-yellow,
+.fa-color.fa-euro,
+.fa-color.fa-eur,
+.fa-color.fa-gbp,
+.fa-color.fa-rupee,
+.fa-color.fa-inr,
+.fa-color.fa-won,
+.fa-color.fa-krw {
+  color: #f6eb13;
+}
+.fa-money-red,
+.fa-color.fa-cny,
+.fa-color.fa-rmb,
+.fa-color.fa-yen,
+.fa-color.fa-jpy,
+.fa-color.fa-ruble,
+.fa-color.fa-rouble,
+.fa-color.fa-rub,
+.fa-color.fa-turkish-lira,
+.fa-color.fa-try {
+  color: #cf241c;
 }
 .fa-office-yellow,
 .fa-color.fa-file-o,
@@ -353,34 +393,6 @@
 .fa-color.fa-undo,
 .fa-color.fa-eraser {
   color: #417ece;
-}
-.fa-money-green,
-.fa-color.fa-money,
-.fa-color.fa-dollar,
-.fa-color.fa-usd {
-  color: #3aa902;
-}
-.fa-money-yellow,
-.fa-color.fa-euro,
-.fa-color.fa-eur,
-.fa-color.fa-gbp,
-.fa-color.fa-rupee,
-.fa-color.fa-inr,
-.fa-color.fa-won,
-.fa-color.fa-krw {
-  color: #f6eb13;
-}
-.fa-money-red,
-.fa-color.fa-cny,
-.fa-color.fa-rmb,
-.fa-color.fa-yen,
-.fa-color.fa-jpy,
-.fa-color.fa-ruble,
-.fa-color.fa-rouble,
-.fa-color.fa-rub,
-.fa-color.fa-turkish-lira,
-.fa-color.fa-try {
-  color: #cf241c;
 }
 .fa-color.fa-twitter,
 .fa-color.fa-twitter-square {
