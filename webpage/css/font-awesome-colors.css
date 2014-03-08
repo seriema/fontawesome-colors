@@ -47,7 +47,6 @@
 .fa-color.fa-edit,
 .fa-color.fa-pencil-square-o,
 .fa-color.fa-share-square-o,
-.fa-color.fa-check-square-o,
 .fa-color.fa-arrows,
 .fa-color.fa-chevron-left,
 .fa-color.fa-chevron-right,
@@ -107,7 +106,6 @@
 .fa-color.fa-upload,
 .fa-color.fa-lemon-o,
 .fa-color.fa-phone,
-.fa-color.fa-square-o,
 .fa-color.fa-bookmark-o,
 .fa-color.fa-phone-square,
 .fa-color.fa-unlock,
@@ -134,7 +132,6 @@
 .fa-color.fa-users,
 .fa-color.fa-cloud,
 .fa-color.fa-flask,
-.fa-color.fa-square,
 .fa-color.fa-bars,
 .fa-color.fa-magic,
 .fa-color.fa-truck,
@@ -175,7 +172,6 @@
 .fa-color.fa-fighter-jet,
 .fa-color.fa-beer,
 .fa-color.fa-h-square,
-.fa-color.fa-plus-square,
 .fa-color.fa-angle-double-left,
 .fa-color.fa-angle-double-right,
 .fa-color.fa-angle-double-up,
@@ -189,11 +185,9 @@
 .fa-color.fa-tablet,
 .fa-color.fa-mobile-phone,
 .fa-color.fa-mobile,
-.fa-color.fa-circle-o,
 .fa-color.fa-quote-left,
 .fa-color.fa-quote-right,
 .fa-color.fa-spinner,
-.fa-color.fa-circle,
 .fa-color.fa-mail-reply,
 .fa-color.fa-reply,
 .fa-color.fa-smile-o,
@@ -236,11 +230,8 @@
 .fa-color.fa-ellipsis-v,
 .fa-color.fa-rss-square,
 .fa-color.fa-ticket,
-.fa-color.fa-minus-square,
-.fa-color.fa-minus-square-o,
 .fa-color.fa-level-up,
 .fa-color.fa-level-down,
-.fa-color.fa-check-square,
 .fa-color.fa-pencil-square,
 .fa-color.fa-external-link-square,
 .fa-color.fa-share-square,
@@ -274,10 +265,28 @@
 .fa-color.fa-arrow-circle-o-left,
 .fa-color.fa-toggle-left,
 .fa-color.fa-caret-square-o-left,
-.fa-color.fa-dot-circle-o,
-.fa-color.fa-wheelchair,
-.fa-color.fa-plus-square-o {
+.fa-color.fa-wheelchair {
   color: rgba(186, 218, 85, 0.3);
+}
+.fa-form-blue,
+.fa-color.fa-square-o,
+.fa-color.fa-square,
+.fa-color.fa-circle-o,
+.fa-color.fa-circle,
+.fa-color.fa-dot-circle-o {
+  color: #238cd4;
+}
+.fa-form-green,
+.fa-color.fa-check-square-o,
+.fa-color.fa-plus-square,
+.fa-color.fa-check-square,
+.fa-color.fa-plus-square-o {
+  color: #9cc703;
+}
+.fa-form-red,
+.fa-color.fa-minus-square,
+.fa-color.fa-minus-square-o {
+  color: #e73522;
 }
 .fa-media-black,
 .fa-color.fa-step-backward,
@@ -312,16 +321,6 @@
 .fa-color.fa-usd {
   color: #3aa902;
 }
-.fa-money-yellow,
-.fa-color.fa-euro,
-.fa-color.fa-eur,
-.fa-color.fa-gbp,
-.fa-color.fa-rupee,
-.fa-color.fa-inr,
-.fa-color.fa-won,
-.fa-color.fa-krw {
-  color: #f6eb13;
-}
 .fa-money-red,
 .fa-color.fa-cny,
 .fa-color.fa-rmb,
@@ -334,24 +333,15 @@
 .fa-color.fa-try {
   color: #cf241c;
 }
-.fa-office-yellow,
-.fa-color.fa-file-o,
-.fa-color.fa-folder,
-.fa-color.fa-folder-o,
-.fa-color.fa-folder-open,
-.fa-color.fa-folder-open-o,
-.fa-color.fa-cut,
-.fa-color.fa-scissors,
-.fa-color.fa-copy,
-.fa-color.fa-files-o,
-.fa-color.fa-envelope,
-.fa-color.fa-envelope-o,
-.fa-color.fa-paste,
-.fa-color.fa-clipboard,
-.fa-color.fa-file-text-o,
-.fa-color.fa-file,
-.fa-color.fa-file-text {
-  color: #ffc200;
+.fa-money-yellow,
+.fa-color.fa-euro,
+.fa-color.fa-eur,
+.fa-color.fa-gbp,
+.fa-color.fa-rupee,
+.fa-color.fa-inr,
+.fa-color.fa-won,
+.fa-color.fa-krw {
+  color: #f6eb13;
 }
 .fa-office-black,
 .fa-color.fa-th-large,
@@ -393,6 +383,25 @@
 .fa-color.fa-undo,
 .fa-color.fa-eraser {
   color: #417ece;
+}
+.fa-office-yellow,
+.fa-color.fa-file-o,
+.fa-color.fa-folder,
+.fa-color.fa-folder-o,
+.fa-color.fa-folder-open,
+.fa-color.fa-folder-open-o,
+.fa-color.fa-cut,
+.fa-color.fa-scissors,
+.fa-color.fa-copy,
+.fa-color.fa-files-o,
+.fa-color.fa-envelope,
+.fa-color.fa-envelope-o,
+.fa-color.fa-paste,
+.fa-color.fa-clipboard,
+.fa-color.fa-file-text-o,
+.fa-color.fa-file,
+.fa-color.fa-file-text {
+  color: #ffc200;
 }
 .fa-color.fa-twitter,
 .fa-color.fa-twitter-square {
