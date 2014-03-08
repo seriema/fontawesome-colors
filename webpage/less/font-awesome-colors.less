@@ -4,9 +4,11 @@
 @office-yellow: #ffc200;
 @office-black: #686868;
 @office-blue: #417ece;
+@money-green: #3aa902;
+@money-yellow: #f6eb13;
+@money-red: #cf241c;
 
-
-  // Bases for :extend
+// Bases for :extend
 
 .fa-default-color {
   color: @default-color;
@@ -22,6 +24,18 @@
 
 .fa-office-blue {
   color: @office-blue;
+}
+
+.fa-money-green {
+  color: @money-green;
+}
+
+.fa-money-yellow {
+  color: @money-yellow;
+}
+
+.fa-money-red {
+  color: @money-red;
 }
 
 
@@ -590,7 +604,7 @@
     color: #cc3433;
   }
   &.fa-money {
-    &:extend(.fa-default-color);
+    &:extend(.fa-money-green);
   }
   &.fa-caret-down {
     &:extend(.fa-default-color);
@@ -953,33 +967,33 @@
   }
   &.fa-euro,
   &.fa-eur {
-    &:extend(.fa-default-color);
+    &:extend(.fa-money-yellow);
   }
   &.fa-gbp {
-    &:extend(.fa-default-color);
+    &:extend(.fa-money-yellow);
   }
   &.fa-dollar,
   &.fa-usd {
-    &:extend(.fa-default-color);
+    &:extend(.fa-money-green);
   }
   &.fa-rupee,
   &.fa-inr {
-    &:extend(.fa-default-color);
+    &:extend(.fa-money-yellow);
   }
   &.fa-cny,
   &.fa-rmb,
   &.fa-yen,
   &.fa-jpy {
-    &:extend(.fa-default-color);
+    &:extend(.fa-money-red);
   }
   &.fa-ruble,
   &.fa-rouble,
   &.fa-rub {
-    &:extend(.fa-default-color);
+    &:extend(.fa-money-red);
   }
   &.fa-won,
   &.fa-krw {
-    &:extend(.fa-default-color);
+    &:extend(.fa-money-yellow);
   }
   &.fa-bitcoin,
   &.fa-btc {
@@ -1140,7 +1154,7 @@
   }
   &.fa-turkish-lira,
   &.fa-try {
-    &:extend(.fa-default-color);
+    &:extend(.fa-money-red);
   }
   &.fa-plus-square-o {
     &:extend(.fa-default-color);

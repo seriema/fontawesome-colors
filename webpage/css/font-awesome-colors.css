@@ -152,7 +152,6 @@
 .fa-color.fa-bars,
 .fa-color.fa-magic,
 .fa-color.fa-truck,
-.fa-color.fa-money,
 .fa-color.fa-caret-down,
 .fa-color.fa-caret-up,
 .fa-color.fa-caret-left,
@@ -267,22 +266,6 @@
 .fa-color.fa-caret-square-o-up,
 .fa-color.fa-toggle-right,
 .fa-color.fa-caret-square-o-right,
-.fa-color.fa-euro,
-.fa-color.fa-eur,
-.fa-color.fa-gbp,
-.fa-color.fa-dollar,
-.fa-color.fa-usd,
-.fa-color.fa-rupee,
-.fa-color.fa-inr,
-.fa-color.fa-cny,
-.fa-color.fa-rmb,
-.fa-color.fa-yen,
-.fa-color.fa-jpy,
-.fa-color.fa-ruble,
-.fa-color.fa-rouble,
-.fa-color.fa-rub,
-.fa-color.fa-won,
-.fa-color.fa-krw,
 .fa-color.fa-sort-alpha-asc,
 .fa-color.fa-sort-alpha-desc,
 .fa-color.fa-sort-amount-asc,
@@ -308,8 +291,6 @@
 .fa-color.fa-caret-square-o-left,
 .fa-color.fa-dot-circle-o,
 .fa-color.fa-wheelchair,
-.fa-color.fa-turkish-lira,
-.fa-color.fa-try,
 .fa-color.fa-plus-square-o {
   color: rgba(186, 218, 85, 0.3);
 }
@@ -372,6 +353,34 @@
 .fa-color.fa-undo,
 .fa-color.fa-eraser {
   color: #417ece;
+}
+.fa-money-green,
+.fa-color.fa-money,
+.fa-color.fa-dollar,
+.fa-color.fa-usd {
+  color: #3aa902;
+}
+.fa-money-yellow,
+.fa-color.fa-euro,
+.fa-color.fa-eur,
+.fa-color.fa-gbp,
+.fa-color.fa-rupee,
+.fa-color.fa-inr,
+.fa-color.fa-won,
+.fa-color.fa-krw {
+  color: #f6eb13;
+}
+.fa-money-red,
+.fa-color.fa-cny,
+.fa-color.fa-rmb,
+.fa-color.fa-yen,
+.fa-color.fa-jpy,
+.fa-color.fa-ruble,
+.fa-color.fa-rouble,
+.fa-color.fa-rub,
+.fa-color.fa-turkish-lira,
+.fa-color.fa-try {
+  color: #cf241c;
 }
 .fa-color.fa-twitter,
 .fa-color.fa-twitter-square {
