@@ -159,19 +159,13 @@
 .fa-color.fa-exchange,
 .fa-color.fa-cloud-download,
 .fa-color.fa-cloud-upload,
-.fa-color.fa-user-md,
-.fa-color.fa-stethoscope,
 .fa-color.fa-suitcase,
 .fa-color.fa-bell-o,
 .fa-color.fa-coffee,
 .fa-color.fa-cutlery,
 .fa-color.fa-building-o,
-.fa-color.fa-hospital-o,
-.fa-color.fa-ambulance,
-.fa-color.fa-medkit,
 .fa-color.fa-fighter-jet,
 .fa-color.fa-beer,
-.fa-color.fa-h-square,
 .fa-color.fa-angle-double-left,
 .fa-color.fa-angle-double-right,
 .fa-color.fa-angle-double-up,
@@ -264,8 +258,7 @@
 .fa-color.fa-arrow-circle-o-right,
 .fa-color.fa-arrow-circle-o-left,
 .fa-color.fa-toggle-left,
-.fa-color.fa-caret-square-o-left,
-.fa-color.fa-wheelchair {
+.fa-color.fa-caret-square-o-left {
   color: rgba(186, 218, 85, 0.3);
 }
 .fa-form-blue,
@@ -314,6 +307,23 @@
 .fa-media-red,
 .fa-color.fa-stop {
   color: #ea3941;
+}
+.fa-medical-blue,
+.fa-color.fa-user-md,
+.fa-color.fa-stethoscope,
+.fa-color.fa-wheelchair {
+  color: #1b446e;
+}
+.fa-medical-green,
+.fa-color.fa-h-square,
+.fa-color-alt.fa-medkit {
+  color: #669602;
+}
+.fa-medical-red,
+.fa-color.fa-hospital-o,
+.fa-color.fa-ambulance,
+.fa-color.fa-medkit {
+  color: #d9241d;
 }
 .fa-money-green,
 .fa-color.fa-money,

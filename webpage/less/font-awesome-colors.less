@@ -39,6 +39,19 @@
   color: #ea3941;
 }
 
+// - Medical colors
+.fa-medical-blue {
+  color: #1b446e;
+}
+
+.fa-medical-green {
+  color: #669602;
+}
+
+.fa-medical-red {
+  color: #d9241d;
+}
+
 // - Money colors
 .fa-money-green {
   color: #3aa902;
@@ -713,10 +726,10 @@
     &:extend(.fa-default-color);
   }
   &.fa-user-md {
-    &:extend(.fa-default-color);
+    &:extend(.fa-medical-blue);
   }
   &.fa-stethoscope {
-    &:extend(.fa-default-color);
+    &:extend(.fa-medical-blue);
   }
   &.fa-suitcase {
     &:extend(.fa-default-color);
@@ -737,13 +750,13 @@
     &:extend(.fa-default-color);
   }
   &.fa-hospital-o {
-    &:extend(.fa-default-color);
+    &:extend(.fa-medical-red);
   }
   &.fa-ambulance {
-    &:extend(.fa-default-color);
+    &:extend(.fa-medical-red);
   }
   &.fa-medkit {
-    &:extend(.fa-default-color);
+    &:extend(.fa-medical-red);
   }
   &.fa-fighter-jet {
     &:extend(.fa-default-color);
@@ -752,7 +765,7 @@
     &:extend(.fa-default-color);
   }
   &.fa-h-square {
-    &:extend(.fa-default-color);
+    &:extend(.fa-medical-green);
   }
   &.fa-plus-square {
     &:extend(.fa-form-green);
@@ -1174,7 +1187,7 @@
     &:extend(.fa-form-blue);
   }
   &.fa-wheelchair {
-    &:extend(.fa-default-color);
+    &:extend(.fa-medical-blue);
   }
   &.fa-vimeo-square {
     color: #1bb6ec;
@@ -1191,6 +1204,9 @@
 // Alternative colors
 
 .fa-color-alt {
+  &.fa-medkit {
+    &:extend(.fa-medical-green);
+  }
   &.fa-html5 {
     color: #ed662c;
   }
