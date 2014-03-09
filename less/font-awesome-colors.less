@@ -2,11 +2,58 @@
 
 @default-color: rgba(186,218,85,0.3);
 
+// - Brand color variables
+@brand-android: #a4c739;
+@brand-apple: #dcddde;
+@brand-bitbucket: #205081;
+@brand-bitcoin: #f9a540;
+@brand-css3: #2177ff;
+@brand-css3-alt: #2ba9e3;
+@brand-dribble: #e54d88;
+@brand-dropbox: #1081de;
+@brand-facebook: #3b5998;
+@brand-flickr: #ff0084;
+@brand-flickr-alt: #0062dd;
+@brand-foursquare: #24b0eb;
+@brand-github: #222;
+@brand-gittip: #663300;
+@brand-google-plus: #cc3433;
+@brand-html5: #e54d26;
+@brand-html5-alt: #ed662c;
+@brand-instagram: #dac1ab;
+@brand-linkedin: #1985bc;
+@brand-linux: #000;
+@brand-maxcdn: #f46f20;
+@brand-pagelines: #1c94f3;
+@brand-pinterest: #cc2127;
+@brand-renren: #105ba3;
+@brand-renren-alt: #de3d2e;
+@brand-skype: #17b4ee;
+@brand-stack-exchange: #195398;
+@brand-stack-overflow: #fe7a15;
+@brand-stack-overflow-alt: #818185;
+@brand-trello: #256b94;
+@brand-tumblr: #33445e;
+@brand-twitter: #55acee;
+@brand-vimeo: #1bb6ec;
+@brand-vk: #476c98;
+@brand-weibo: #d52b2b;
+@brand-weibo-alt: #e79111;
+@brand-windows: #00adf1;
+@brand-xing: #015a60;
+@brand-xing-alt: #d3d600;
+@brand-youtube: #cc181e;
+
 
 // Bases for :extend
 
 .fa-default-color {
   color: @default-color;
+}
+
+// - Directional colors
+.fa-directional-blue {
+  color: #054890;
 }
 
 // - Form colors
@@ -156,10 +203,10 @@
     &:extend(.fa-default-color);
   }
   &.fa-arrow-circle-o-down {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-arrow-circle-o-up {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-inbox {
     &:extend(.fa-default-color);
@@ -285,7 +332,7 @@
     &:extend(.fa-form-green);
   }
   &.fa-arrows {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-step-backward {
     &:extend(.fa-media-black);
@@ -318,10 +365,10 @@
     &:extend(.fa-media-blue);
   }
   &.fa-chevron-left {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-chevron-right {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-plus-circle {
     &:extend(.fa-default-color);
@@ -354,16 +401,16 @@
     &:extend(.fa-default-color);
   }
   &.fa-arrow-left {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-arrow-right {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-arrow-up {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-arrow-down {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-mail-forward,
   &.fa-share {
@@ -422,10 +469,10 @@
     &:extend(.fa-default-color);
   }
   &.fa-chevron-up {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-chevron-down {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-retweet {
     &:extend(.fa-default-color);
@@ -442,21 +489,21 @@
     &:extend(.fa-office-yellow);
   }
   &.fa-arrows-v {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-arrows-h {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-bar-chart-o {
     &:extend(.fa-default-color);
   }
   &.fa-twitter,
   &.fa-twitter-square {
-    color: #55acee;
+    color: @brand-twitter;
   }
   &.fa-facebook,
   &.fa-facebook-square {
-    color: #3b5998;
+    color: @brand-facebook;
   }
   &.fa-camera-retro {
     &:extend(.fa-default-color);
@@ -538,28 +585,28 @@
     &:extend(.fa-default-color);
   }
   &.fa-hand-o-right {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-hand-o-left {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-hand-o-up {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-hand-o-down {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-arrow-circle-left {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-arrow-circle-right {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-arrow-circle-up {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-arrow-circle-down {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-globe {
     &:extend(.fa-default-color);
@@ -637,26 +684,26 @@
   }
   &.fa-pinterest,
   &.fa-pinterest-square {
-    color: #cc2127;
+    color: @brand-pinterest;
   }
   &.fa-google-plus-square,
   &.fa-google-plus {
-    color: #cc3433;
+    color: @brand-google-plus;
   }
   &.fa-money {
     &:extend(.fa-money-green);
   }
   &.fa-caret-down {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-caret-up {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-caret-left {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-caret-right {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-columns {
     &:extend(.fa-office-black);
@@ -679,7 +726,7 @@
   }
   &.fa-linkedin,
   &.fa-linkedin-square {
-    color: #1985bc;
+    color: @brand-linkedin;
   }
   &.fa-rotate-left,
   &.fa-undo {
@@ -771,28 +818,28 @@
     &:extend(.fa-form-green);
   }
   &.fa-angle-double-left {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-angle-double-right {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-angle-double-up {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-angle-double-down {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-angle-left {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-angle-right {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-angle-up {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-angle-down {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-desktop {
     &:extend(.fa-default-color);
@@ -829,7 +876,7 @@
   &.fa-github,
   &.fa-github-alt,
   &.fa-github-square {
-    color: #222;
+    color: @brand-github;
   }
   &.fa-smile-o {
     &:extend(.fa-default-color);
@@ -922,25 +969,25 @@
     &:extend(.fa-default-color);
   }
   &.fa-maxcdn {
-    color: #f46f20;
+    color: @brand-maxcdn;
   }
   &.fa-chevron-circle-left {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-chevron-circle-right {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-chevron-circle-up {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-chevron-circle-down {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-html5 {
-    color: #e54d26;
+    color: @brand-html5;
   }
   &.fa-css3 {
-    color: #2177ff;
+    color: @brand-css3;
   }
   &.fa-anchor {
     &:extend(.fa-default-color);
@@ -995,15 +1042,15 @@
   }
   &.fa-toggle-down,
   &.fa-caret-square-o-down {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-toggle-up,
   &.fa-caret-square-o-up {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-toggle-right,
   &.fa-caret-square-o-right {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-euro,
   &.fa-eur {
@@ -1037,7 +1084,7 @@
   }
   &.fa-bitcoin,
   &.fa-btc {
-    color: #f9a540;
+    color: @brand-bitcoin;
   }
   &.fa-file {
     &:extend(.fa-office-yellow);
@@ -1071,71 +1118,71 @@
   }
   &.fa-xing,
   &.fa-xing-square {
-    color: #015a60;
+    color: @brand-xing;
   }
   &.fa-youtube-square,
   &.fa-youtube,
   &.fa-youtube-play {
-    color: #cc181e;
+    color: @brand-youtube;
   }
   &.fa-dropbox {
-    color: #1081de;
+    color: @brand-dropbox;
   }
   &.fa-stack-overflow {
-    color: #fe7a15;
+    color: @brand-stack-overflow;
   }
   &.fa-instagram {
-    color: #dac1ab;
+    color: @brand-instagram;
   }
   &.fa-flickr {
-    color: #ff0084;
+    color: @brand-flickr;
   }
   &.fa-adn {
     &:extend(.fa-default-color);
   }
   &.fa-bitbucket,
   &.fa-bitbucket-square {
-    color: #205081;
+    color: @brand-bitbucket;
   }
   &.fa-tumblr,
   &.fa-tumblr-square {
-    color: #33445e;
+    color: @brand-tumblr;
   }
   &.fa-long-arrow-down {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-long-arrow-up {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-long-arrow-left {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-long-arrow-right {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-apple {
-    color: #dcddde;
+    color: @brand-apple;
   }
   &.fa-windows {
-    color: #00adf1;
+    color: @brand-windows;
   }
   &.fa-android {
-    color: #a4c739;
+    color: @brand-android;
   }
   &.fa-linux {
-    color: #000;
+    color: @brand-linux;
   }
   &.fa-dribbble {
-    color: #e54d88;
+    color: @brand-dribble;
   }
   &.fa-skype {
-    color: #17b4ee;
+    color: @brand-skype;
   }
   &.fa-foursquare {
-    color: #24b0eb;
+    color: @brand-foursquare;
   }
   &.fa-trello {
-    color: #256b94;
+    color: @brand-trello;
   }
   &.fa-female {
     &:extend(.fa-default-color);
@@ -1144,7 +1191,7 @@
     &:extend(.fa-default-color);
   }
   &.fa-gittip {
-    color: #663300;
+    color: @brand-gittip;
   }
   &.fa-sun-o {
     &:extend(.fa-default-color);
@@ -1159,29 +1206,29 @@
     &:extend(.fa-default-color);
   }
   &.fa-vk {
-    color: #476c98;
+    color: @brand-vk;
   }
   &.fa-weibo {
-    color: #d52b2b;
+    color: @brand-weibo;
   }
   &.fa-renren {
-    color: #105ba3;
+    color: @brand-renren;
   }
   &.fa-pagelines {
-    color: #1c94f3;
+    color: @brand-pagelines;
   }
   &.fa-stack-exchange {
-    color: #195398;
+    color: @brand-stack-exchange;
   }
   &.fa-arrow-circle-o-right {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-arrow-circle-o-left {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-toggle-left,
   &.fa-caret-square-o-left {
-    &:extend(.fa-default-color);
+    &:extend(.fa-directional-blue);
   }
   &.fa-dot-circle-o {
     &:extend(.fa-form-blue);
@@ -1190,7 +1237,7 @@
     &:extend(.fa-medical-blue);
   }
   &.fa-vimeo-square {
-    color: #1bb6ec;
+    color: @brand-vimeo;
   }
   &.fa-turkish-lira,
   &.fa-try {
@@ -1208,25 +1255,25 @@
     &:extend(.fa-medical-green);
   }
   &.fa-html5 {
-    color: #ed662c;
+    color: @brand-html5-alt;
   }
   &.fa-css3 {
-    color: #2ba9e3;
+    color: @brand-css3-alt;
   }
   &.fa-weibo {
-    color: #e79111;
+    color: @brand-weibo-alt;
   }
   &.fa-renren {
-    color: #de3d2e;
+    color: @brand-renren-alt;
   }
   &.fa-xing,
   &.fa-xing-square {
-    color: #d3d600;
+    color: @brand-xing-alt;
   }
   &.fa-stack-overflow {
-    color: #818185;
+    color: @brand-stack-overflow-alt;
   }
   &.fa-flickr {
-    color: #0062dd;
+    color: @brand-flickr-alt;
   }
 }
